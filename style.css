@@ -52,11 +52,11 @@
   margin-top: 80px;
 } */
 
-/* #why .row img {
+#why img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
-} */
+}
 
 /* COMMON */
 /* .row::after {
@@ -65,23 +65,26 @@
   clear: both;
 } */
 
-.container .grey {
+.mycontainer.grey {
   background-color: #f9f9f9;
+}
+
+.mt-10 {
+  padding-top: 10px;
 }
 
 img {
   height: 200px;
 }
 
-/* @media screen and (max-width: 420px){ */
-  body {
-    margin: 0;
-  }
-  h3 {
-    margin: 0;
-  }
+
+@media screen and (max-width: 768px) {
+
   img {
     height: 100px;
+  }
+  h1 {
+    text-align: center;
   }
   #lezioni {
     background-color: lightyellow;
